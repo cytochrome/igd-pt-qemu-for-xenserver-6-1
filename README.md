@@ -1,10 +1,11 @@
-xen-device-model Package with Newer IGD Passthru for XenServer 6.1
+xen-device-model Package with Newer IGD Passthru for XCP-1.6
 ------------------------------------------------------------
 
 **Overview**
 
-This package enables XenServer 6.1 to Passthru newer IGDs.
-There are following changes from the original package.
+ This package enables Xen Could Platform 1.6.10 (61809c)
+to Passthru newer IGDs. There are following changes from
+the original package.
 
   - Some functions related to Passthru are backported from
     xen-4.2-testing.
@@ -18,14 +19,17 @@ There are following changes from the original package.
 
 **Packages**
 
-  - xen-device-model (i386.rpm): binary package which has
+  - xen-device-model (i686.rpm): binary package which has
     built on XenServer DDK. 
   - xen-device-model (src.rpm): source package.
-  - pciutils-devel (i386.rpm): binary package of
-    pciutils-devel built from  pciutils SRPM at Xen Cloud
-    Platform 1.6 source-disc. (source-4.iso)
-    (pciutils-devel is needed to build binary package of
-     xen-device-model)
+
+ To build binary packages from source package, you may
+need to install XenServer DDK-VM into XCP and need to 
+install binary package of pciutils-devel (i686) into DDK-VM.
+
+ To build binary package of pciutils-devel (i686), you
+need to build from pciutils source package in source-disc
+of Xen Cloud Platform 1.6 (source-1.iso)
 
 **Details for patch.**
 
