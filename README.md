@@ -38,6 +38,11 @@ IGD Passthru are located in Xen-devel.**
    2. [qemu-xen-trad: Correctly expose PCH ISA bridge for IGD passthrough]
    3. [qemu-xen-trad: IGD passthrough: Expose	vendor specific pci cap on host bridge.]
 
+**License**
+
+Inherited from Xen Cloud Platform (GPL v2)
+
+
   [qemu-xen-trad/pt_msi_disable: do not clear all MSI flags]: http://lists.xen.org/archives/html/xen-devel/2013-02/msg00537.html
   [qemu-xen-trad: Correctly expose PCH ISA bridge for IGD passthrough]: http://lists.xen.org/archives/html/xen-devel/2013-02/msg00536.html
   [qemu-xen-trad: IGD passthrough: Expose	vendor specific pci cap on host bridge.]: http://lists.xen.org/archives/html/xen-devel/2013-02/msg00538.html
