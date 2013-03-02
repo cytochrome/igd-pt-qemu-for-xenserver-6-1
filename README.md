@@ -11,6 +11,11 @@ There are following changes from the original package.
   - Including Intel newer IGD (like IvyBridge) specific
     codes.
 
+**WARNING: USE AT YOUR OWN RISK**
+  This package is work fine in my environment. however,
+  there are still unconscious risks of what break your
+  computers or environment.
+
 **Packages**
 
   - xen-device-model (i386.rpm): binary package which has
